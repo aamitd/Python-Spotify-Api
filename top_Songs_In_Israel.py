@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 import base64
 from requests import post, get
-
+import re
 load_dotenv()
 
 client_id = os.getenv("CLIENT_ID")
