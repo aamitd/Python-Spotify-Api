@@ -4,8 +4,9 @@ import base64
 from requests import post, get
 import os
 from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
 
+# Load environment variables from .env file
+load_dotenv()
 
 # Spotify API credentials
 client_id = os.getenv("CLIENT_ID")
