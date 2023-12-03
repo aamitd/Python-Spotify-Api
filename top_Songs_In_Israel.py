@@ -44,7 +44,7 @@ def top_songs_in_israel(token, playlist_id):
 
 
 token = get_token()
-playlist_id = "37i9dQZEVXbJ5J1TrbkAF9"
+playlist_id = "37i9dQZF1DX3AIUZtN4k8u"
 playlist_tracks = top_songs_in_israel(token, playlist_id)
 print(playlist_tracks)
 print()
